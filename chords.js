@@ -33,7 +33,7 @@ var fill = d3.scale.ordinal()
 var margin = {top: 50, right: 50, bottom: 50, left: 50},
     width = 500,
     height = 500,
-    innerRadius = Math.min(width, height) * .35,
+    innerRadius = Math.min(width, height) * .39,
     outerRadius = innerRadius * 1.02;
 
 /*Initiate the SVG*/
@@ -176,7 +176,7 @@ var middleTextTop = textCenter.append("text")
 	.attr("y", -24*10/2 + "px")
 	.attr("dy", "1em")
 	.attr("opacity", 1)
-	.text("For the Dutch version of the Deloitte Global Mobile Consumer Survey, Deloitte asked 2000 residents of the Netherlands about their mobile phone behavior")
+	.text("Diagrama de corda das relações entre os traços de personalidade do SoPa.")
 	.call(wrap, 350);
 
 /*Starting text middle bottom*/
@@ -187,7 +187,7 @@ var middleTextBottom = textCenter.append("text")
 	.attr("y", 24*3/2 + "px")
 	.attr("dy", "1em")
 	.attr('opacity', 1)
-	.text("The respondents gave us information about the brand of their current main phone, and the brand of their previous main phone")
+	.text("As faixas representam os intervalos de valores que definem a presença do traço")
 	.call(wrap, 350);
 
 
