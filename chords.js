@@ -31,10 +31,10 @@ var fill = d3.scale.ordinal()
 /////////////// Initiate Chord Diagram /////////////////////
 //////////////////////////////////////////////////////////*/
 var margin = {top: 50, right: 50, bottom: 50, left: 50},
-    width = 800,
-    height = 700,
-    innerRadius = Math.min(width, height) * .39,
-    outerRadius = innerRadius * 1.04;
+    width = 500,
+    height = 500,
+    innerRadius = Math.min(width, height) * .35,
+    outerRadius = innerRadius * 1.02;
 
 /*Initiate the SVG*/
 var svg = d3.select("#chart").append("svg:svg")
